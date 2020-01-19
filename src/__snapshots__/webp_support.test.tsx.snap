@@ -2,12 +2,12 @@
 
 exports[`Background Image when given an Image object renders correctly 1`] = `
 <DocumentFragment>
-  .emotion-1 {
+  .emotion-0 {
   position: relative;
 }
 
-.emotion-1::before,
-.emotion-1::after {
+.emotion-0::before,
+.emotion-0::after {
   content: "";
   display: block;
   position: absolute;
@@ -22,23 +22,18 @@ exports[`Background Image when given an Image object renders correctly 1`] = `
   background-size: cover;
 }
 
-.emotion-1::before {
+.emotion-0::before {
   z-index: -101;
   opacity: 1;
   background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
 }
 
-.emotion-0 {
-  opacity: 1;
-  background-image: url("/static/banner_example/1/banner.jpg");
-}
-
 <div
-    class="emotion-1"
+    class="emotion-0"
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="emotion-0"
+      class="gatsby-background-image-lite-noscript-wrapper"
     />
   </div>
 </DocumentFragment>
@@ -47,16 +42,11 @@ exports[`Background Image when given an Image object renders correctly 1`] = `
 exports[`Background Image when given an Image object updates after entering the viewport correctly 1`] = `
 <DocumentFragment>
   .emotion-0 {
-  opacity: 1;
-  background-image: url("/static/banner_example/1/banner.jpg");
-}
-
-.emotion-1 {
   position: relative;
 }
 
-.emotion-1::before,
-.emotion-1::after {
+.emotion-0::before,
+.emotion-0::after {
   content: "";
   display: block;
   position: absolute;
@@ -71,24 +61,24 @@ exports[`Background Image when given an Image object updates after entering the 
   background-size: cover;
 }
 
-.emotion-1::before {
+.emotion-0::before {
   z-index: -101;
   opacity: 1;
   background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
 }
 
-.emotion-1::after {
+.emotion-0::after {
   z-index: -100;
   opacity: 1;
   background-image: url("/static/banner_example/2/banner.webp");
 }
 
 <div
-    class="emotion-1"
+    class="emotion-0"
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="emotion-0"
+      class="gatsby-background-image-lite-noscript-wrapper"
     />
   </div>
 </DocumentFragment>
@@ -96,12 +86,12 @@ exports[`Background Image when given an Image object updates after entering the 
 
 exports[`Background Image when given an Image object with a media query renders correctly 1`] = `
 <DocumentFragment>
-  .emotion-1 {
+  .emotion-0 {
   position: relative;
 }
 
-.emotion-1::before,
-.emotion-1::after {
+.emotion-0::before,
+.emotion-0::after {
   content: "";
   display: block;
   position: absolute;
@@ -116,33 +106,23 @@ exports[`Background Image when given an Image object with a media query renders 
   background-size: cover;
 }
 
-.emotion-1::before {
+.emotion-0::before {
   z-index: -101;
   opacity: 1;
 }
 
 @media screen and (prefers-color-scheme:dark) {
-  .emotion-1::before {
+  .emotion-0::before {
     background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
   }
 }
 
-.emotion-0 {
-  opacity: 1;
-}
-
-@media screen and (prefers-color-scheme:dark) {
-  .emotion-0 {
-    background-image: url("/static/banner_example/1/banner.jpg");
-  }
-}
-
 <div
-    class="emotion-1"
+    class="emotion-0"
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="emotion-0"
+      class="gatsby-background-image-lite-noscript-wrapper"
     />
   </div>
 </DocumentFragment>
@@ -151,21 +131,11 @@ exports[`Background Image when given an Image object with a media query renders 
 exports[`Background Image when given an Image object with a media query updates after entering the viewport correctly 1`] = `
 <DocumentFragment>
   .emotion-0 {
-  opacity: 1;
-}
-
-@media screen and (prefers-color-scheme:dark) {
-  .emotion-0 {
-    background-image: url("/static/banner_example/1/banner.jpg");
-  }
-}
-
-.emotion-1 {
   position: relative;
 }
 
-.emotion-1::before,
-.emotion-1::after {
+.emotion-0::before,
+.emotion-0::after {
   content: "";
   display: block;
   position: absolute;
@@ -180,34 +150,34 @@ exports[`Background Image when given an Image object with a media query updates 
   background-size: cover;
 }
 
-.emotion-1::before {
+.emotion-0::before {
   z-index: -101;
   opacity: 1;
 }
 
 @media screen and (prefers-color-scheme:dark) {
-  .emotion-1::before {
+  .emotion-0::before {
     background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
   }
 }
 
-.emotion-1::after {
+.emotion-0::after {
   z-index: -100;
   opacity: 1;
 }
 
 @media screen and (prefers-color-scheme:dark) {
-  .emotion-1::after {
+  .emotion-0::after {
     background-image: url("/static/banner_example/2/banner.webp");
   }
 }
 
 <div
-    class="emotion-1"
+    class="emotion-0"
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="emotion-0"
+      class="gatsby-background-image-lite-noscript-wrapper"
     />
   </div>
 </DocumentFragment>
@@ -216,16 +186,11 @@ exports[`Background Image when given an Image object with a media query updates 
 exports[`Background Image when given an Image object with the eager prop renders correctly 1`] = `
 <DocumentFragment>
   .emotion-0 {
-  opacity: 1;
-  background-image: url("/static/banner_example/1/banner.jpg");
-}
-
-.emotion-1 {
   position: relative;
 }
 
-.emotion-1::before,
-.emotion-1::after {
+.emotion-0::before,
+.emotion-0::after {
   content: "";
   display: block;
   position: absolute;
@@ -240,24 +205,24 @@ exports[`Background Image when given an Image object with the eager prop renders
   background-size: cover;
 }
 
-.emotion-1::before {
+.emotion-0::before {
   z-index: -101;
   opacity: 1;
   background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
 }
 
-.emotion-1::after {
+.emotion-0::after {
   z-index: -100;
   opacity: 1;
   background-image: url("/static/banner_example/2/banner.webp");
 }
 
 <div
-    class="emotion-1"
+    class="emotion-0"
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="emotion-0"
+      class="gatsby-background-image-lite-noscript-wrapper"
     />
   </div>
 </DocumentFragment>
@@ -265,12 +230,12 @@ exports[`Background Image when given an Image object with the eager prop renders
 
 exports[`Background Image when given an array of Image objects (media queries included) renders correctly 1`] = `
 <DocumentFragment>
-  .emotion-1 {
+  .emotion-0 {
   position: relative;
 }
 
-.emotion-1::before,
-.emotion-1::after {
+.emotion-0::before,
+.emotion-0::after {
   content: "";
   display: block;
   position: absolute;
@@ -285,35 +250,24 @@ exports[`Background Image when given an array of Image objects (media queries in
   background-size: cover;
 }
 
-.emotion-1::before {
+.emotion-0::before {
   z-index: -101;
   opacity: 1;
   background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z"),url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
 }
 
 @media screen and (prefers-color-scheme:dark) {
-  .emotion-1::before {
+  .emotion-0::before {
     background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
   }
 }
 
-.emotion-0 {
-  opacity: 1;
-  background-image: url("/static/banner_example/1/banner.jpg"),url("/static/another_banner_example/1/banner.jpg");
-}
-
-@media screen and (prefers-color-scheme:dark) {
-  .emotion-0 {
-    background-image: url("/static/special_banner_example/1/banner.jpg");
-  }
-}
-
 <div
-    class="emotion-1"
+    class="emotion-0"
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="emotion-0"
+      class="gatsby-background-image-lite-noscript-wrapper"
     />
   </div>
 </DocumentFragment>
@@ -322,22 +276,11 @@ exports[`Background Image when given an array of Image objects (media queries in
 exports[`Background Image when given an array of Image objects (media queries included) updates after entering the viewport correctly 1`] = `
 <DocumentFragment>
   .emotion-0 {
-  opacity: 1;
-  background-image: url("/static/banner_example/1/banner.jpg"),url("/static/another_banner_example/1/banner.jpg");
-}
-
-@media screen and (prefers-color-scheme:dark) {
-  .emotion-0 {
-    background-image: url("/static/special_banner_example/1/banner.jpg");
-  }
-}
-
-.emotion-1 {
   position: relative;
 }
 
-.emotion-1::before,
-.emotion-1::after {
+.emotion-0::before,
+.emotion-0::after {
   content: "";
   display: block;
   position: absolute;
@@ -352,36 +295,36 @@ exports[`Background Image when given an array of Image objects (media queries in
   background-size: cover;
 }
 
-.emotion-1::before {
+.emotion-0::before {
   z-index: -101;
   opacity: 1;
   background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z"),url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
 }
 
 @media screen and (prefers-color-scheme:dark) {
-  .emotion-1::before {
+  .emotion-0::before {
     background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
   }
 }
 
-.emotion-1::after {
+.emotion-0::after {
   z-index: -100;
   opacity: 1;
   background-image: url("/static/banner_example/2/banner.webp"),url("/static/another_banner_example/2/banner.webp");
 }
 
 @media screen and (prefers-color-scheme:dark) {
-  .emotion-1::after {
+  .emotion-0::after {
     background-image: url("/static/special_banner_example/2/banner.webp");
   }
 }
 
 <div
-    class="emotion-1"
+    class="emotion-0"
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="emotion-0"
+      class="gatsby-background-image-lite-noscript-wrapper"
     />
   </div>
 </DocumentFragment>
@@ -389,12 +332,12 @@ exports[`Background Image when given an array of Image objects (media queries in
 
 exports[`Background Image when given an array of Image objects renders correctly 1`] = `
 <DocumentFragment>
-  .emotion-1 {
+  .emotion-0 {
   position: relative;
 }
 
-.emotion-1::before,
-.emotion-1::after {
+.emotion-0::before,
+.emotion-0::after {
   content: "";
   display: block;
   position: absolute;
@@ -409,23 +352,18 @@ exports[`Background Image when given an array of Image objects renders correctly
   background-size: cover;
 }
 
-.emotion-1::before {
+.emotion-0::before {
   z-index: -101;
   opacity: 1;
   background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z"),url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
 }
 
-.emotion-0 {
-  opacity: 1;
-  background-image: url("/static/banner_example/1/banner.jpg"),url("/static/another_banner_example/1/banner.jpg");
-}
-
 <div
-    class="emotion-1"
+    class="emotion-0"
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="emotion-0"
+      class="gatsby-background-image-lite-noscript-wrapper"
     />
   </div>
 </DocumentFragment>
@@ -434,16 +372,11 @@ exports[`Background Image when given an array of Image objects renders correctly
 exports[`Background Image when given an array of Image objects updates after entering the viewport correctly 1`] = `
 <DocumentFragment>
   .emotion-0 {
-  opacity: 1;
-  background-image: url("/static/banner_example/1/banner.jpg"),url("/static/another_banner_example/1/banner.jpg");
-}
-
-.emotion-1 {
   position: relative;
 }
 
-.emotion-1::before,
-.emotion-1::after {
+.emotion-0::before,
+.emotion-0::after {
   content: "";
   display: block;
   position: absolute;
@@ -458,24 +391,24 @@ exports[`Background Image when given an array of Image objects updates after ent
   background-size: cover;
 }
 
-.emotion-1::before {
+.emotion-0::before {
   z-index: -101;
   opacity: 1;
   background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z"),url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
 }
 
-.emotion-1::after {
+.emotion-0::after {
   z-index: -100;
   opacity: 1;
   background-image: url("/static/banner_example/2/banner.webp"),url("/static/another_banner_example/2/banner.webp");
 }
 
 <div
-    class="emotion-1"
+    class="emotion-0"
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="emotion-0"
+      class="gatsby-background-image-lite-noscript-wrapper"
     />
   </div>
 </DocumentFragment>
