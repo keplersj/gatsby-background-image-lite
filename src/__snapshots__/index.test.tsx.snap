@@ -22,12 +22,6 @@ exports[`Background Image when given an Image object renders correctly 1`] = `
   background-size: cover;
 }
 
-.emotion-1::after {
-  z-index: -100;
-  opacity: 0;
-  background-image: url("/static/banner_example/1/banner.jpg");
-}
-
 .emotion-1::before {
   z-index: -101;
   opacity: 1;
@@ -77,16 +71,16 @@ exports[`Background Image when given an Image object updates after entering the 
   background-size: cover;
 }
 
-.emotion-1::after {
-  z-index: -100;
-  opacity: 1;
-  background-image: url("/static/banner_example/1/banner.jpg");
-}
-
 .emotion-1::before {
   z-index: -101;
   opacity: 1;
   background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
+}
+
+.emotion-1::after {
+  z-index: -100;
+  opacity: 1;
+  background-image: url("/static/banner_example/1/banner.jpg");
 }
 
 <div
@@ -120,17 +114,6 @@ exports[`Background Image when given an Image object with a media query renders 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.emotion-1::after {
-  z-index: -100;
-  opacity: 0;
-}
-
-@media screen and (prefers-color-scheme:dark) {
-  .emotion-1::after {
-    background-image: url("/static/banner_example/1/banner.jpg");
-  }
 }
 
 .emotion-1::before {
@@ -197,17 +180,6 @@ exports[`Background Image when given an Image object with a media query updates 
   background-size: cover;
 }
 
-.emotion-1::after {
-  z-index: -100;
-  opacity: 1;
-}
-
-@media screen and (prefers-color-scheme:dark) {
-  .emotion-1::after {
-    background-image: url("/static/banner_example/1/banner.jpg");
-  }
-}
-
 .emotion-1::before {
   z-index: -101;
   opacity: 1;
@@ -216,6 +188,17 @@ exports[`Background Image when given an Image object with a media query updates 
 @media screen and (prefers-color-scheme:dark) {
   .emotion-1::before {
     background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
+  }
+}
+
+.emotion-1::after {
+  z-index: -100;
+  opacity: 1;
+}
+
+@media screen and (prefers-color-scheme:dark) {
+  .emotion-1::after {
+    background-image: url("/static/banner_example/1/banner.jpg");
   }
 }
 
@@ -257,16 +240,16 @@ exports[`Background Image when given an Image object with the eager prop renders
   background-size: cover;
 }
 
-.emotion-1::after {
-  z-index: -100;
-  opacity: 1;
-  background-image: url("/static/banner_example/1/banner.jpg");
-}
-
 .emotion-1::before {
   z-index: -101;
   opacity: 1;
   background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
+}
+
+.emotion-1::after {
+  z-index: -100;
+  opacity: 1;
+  background-image: url("/static/banner_example/1/banner.jpg");
 }
 
 <div
@@ -300,18 +283,6 @@ exports[`Background Image when given an array of Image objects (media queries in
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.emotion-1::after {
-  z-index: -100;
-  opacity: 0;
-  background-image: url("/static/banner_example/1/banner.jpg"),url("/static/banner_example/1/banner.jpg");
-}
-
-@media screen and (prefers-color-scheme:dark) {
-  .emotion-1::after {
-    background-image: url("/static/banner_example/1/banner.jpg");
-  }
 }
 
 .emotion-1::before {
@@ -381,18 +352,6 @@ exports[`Background Image when given an array of Image objects (media queries in
   background-size: cover;
 }
 
-.emotion-1::after {
-  z-index: -100;
-  opacity: 1;
-  background-image: url("/static/banner_example/1/banner.jpg"),url("/static/banner_example/1/banner.jpg");
-}
-
-@media screen and (prefers-color-scheme:dark) {
-  .emotion-1::after {
-    background-image: url("/static/banner_example/1/banner.jpg");
-  }
-}
-
 .emotion-1::before {
   z-index: -101;
   opacity: 1;
@@ -402,6 +361,18 @@ exports[`Background Image when given an array of Image objects (media queries in
 @media screen and (prefers-color-scheme:dark) {
   .emotion-1::before {
     background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
+  }
+}
+
+.emotion-1::after {
+  z-index: -100;
+  opacity: 1;
+  background-image: url("/static/banner_example/1/banner.jpg"),url("/static/banner_example/1/banner.jpg");
+}
+
+@media screen and (prefers-color-scheme:dark) {
+  .emotion-1::after {
+    background-image: url("/static/banner_example/1/banner.jpg");
   }
 }
 
@@ -436,12 +407,6 @@ exports[`Background Image when given an array of Image objects renders correctly
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.emotion-1::after {
-  z-index: -100;
-  opacity: 0;
-  background-image: url("/static/banner_example/1/banner.jpg"),url("/static/banner_example/1/banner.jpg");
 }
 
 .emotion-1::before {
@@ -493,16 +458,16 @@ exports[`Background Image when given an array of Image objects updates after ent
   background-size: cover;
 }
 
-.emotion-1::after {
-  z-index: -100;
-  opacity: 1;
-  background-image: url("/static/banner_example/1/banner.jpg"),url("/static/banner_example/1/banner.jpg");
-}
-
 .emotion-1::before {
   z-index: -101;
   opacity: 1;
   background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z"),url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
+}
+
+.emotion-1::after {
+  z-index: -100;
+  opacity: 1;
+  background-image: url("/static/banner_example/1/banner.jpg"),url("/static/banner_example/1/banner.jpg");
 }
 
 <div

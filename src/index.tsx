@@ -117,17 +117,20 @@ export const BackgroundImage: FunctionComponent<PropsWithChildren<Props>> = (
           background-size: cover;
         }
 
-        ::after {
-          z-index: -100;
-          opacity: ${inView || props.eager ? 1 : 0};
-          ${createBackgrounds(props.image, supportsWebP)}
-        }
-
         ::before {
           z-index: -101;
           opacity: 1;
           ${createBackupBackgrounds(props.image)}
         }
+
+        ${(inView || props.eager) &&
+          css`
+            ::after {
+              z-index: -100;
+              opacity: 1;
+              ${createBackgrounds(props.image, supportsWebP)}
+            }
+          `}
       `}
     >
       <noscript

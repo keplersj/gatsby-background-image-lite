@@ -31,14 +31,6 @@ describe("Background Image", () => {
       const { asFragment, getByTestId } = render(
         <BackgroundImage image={sampleImage} />
       );
-      const beforeIntersect = asFragment();
-      expect(getByTestId("BackgroundImageContainerElement")).toHaveStyleRule(
-        "opacity",
-        "0",
-        {
-          target: "::after"
-        }
-      );
 
       mockAllIsIntersecting(true);
 
@@ -76,14 +68,6 @@ describe("Background Image", () => {
     it("updates after entering the viewport correctly", () => {
       const { asFragment, getByTestId } = render(
         <BackgroundImage image={sampleImages} />
-      );
-      const beforeIntersect = asFragment();
-      expect(getByTestId("BackgroundImageContainerElement")).toHaveStyleRule(
-        "opacity",
-        "0",
-        {
-          target: "::after"
-        }
       );
 
       mockAllIsIntersecting(true);
@@ -128,14 +112,6 @@ describe("Background Image", () => {
     it("updates after entering the viewport correctly", () => {
       const { asFragment, getByTestId } = render(
         <BackgroundImage image={sampleImages} />
-      );
-      const beforeIntersect = asFragment();
-      expect(getByTestId("BackgroundImageContainerElement")).toHaveStyleRule(
-        "opacity",
-        "0",
-        {
-          target: "::after"
-        }
       );
 
       mockAllIsIntersecting(true);
@@ -183,14 +159,6 @@ describe("Background Image", () => {
     it("updates after entering the viewport correctly", () => {
       const { asFragment, getByTestId } = render(
         <BackgroundImage image={sampleImage} />
-      );
-      const beforeIntersect = asFragment();
-      expect(getByTestId("BackgroundImageContainerElement")).toHaveStyleRule(
-        "opacity",
-        "0",
-        {
-          target: "::after"
-        }
       );
 
       mockAllIsIntersecting(true);
