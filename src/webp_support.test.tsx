@@ -7,7 +7,7 @@ jest.mock("react-use-webp-support-check", () => ({
 import * as React from "react";
 import { render } from "@testing-library/react";
 import { mockAllIsIntersecting } from "react-intersection-observer/test-utils";
-import { matchers } from "jest-emotion";
+import { matchers } from "@emotion/jest";
 import { BackgroundImage, BackgroundImageObject } from ".";
 
 // Add the custom matchers provided by 'jest-emotion'
