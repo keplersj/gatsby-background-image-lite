@@ -134,12 +134,12 @@ export const BackgroundImage: FunctionComponent<PropsWithChildren<Props>> = (
       <noscript className="gatsby-background-image-lite-noscript-wrapper">
         <style
           dangerouslySetInnerHTML={{
-            __html: `
+            __html: css`
               noscript .gatsby-background-image-lite-noscript-wrapper {
                 opacity: 1;
                 ${createBackgrounds(props.image)}
               }
-            `
+            `.styles
           }}
         />
       </noscript>
