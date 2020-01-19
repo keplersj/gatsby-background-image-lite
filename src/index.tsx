@@ -123,14 +123,12 @@ export const BackgroundImage: FunctionComponent<PropsWithChildren<Props>> = (
           ${createBackupBackgrounds(props.image)}
         }
 
-        ${(inView || props.eager) &&
-          css`
-            ::after {
-              z-index: -100;
-              opacity: 1;
-              ${createBackgrounds(props.image, supportsWebP)}
-            }
-          `}
+        ::after {
+          z-index: -100;
+          opacity: ${inView || props.eager ? "1" : "0"};
+          ${(inView || props.eager) &&
+            createBackgrounds(props.image, supportsWebP)};
+        }
       `}
     >
       <noscript className="gatsby-background-image-lite-noscript-wrapper">
