@@ -38,7 +38,7 @@ exports[`Background Image when given an Image object renders correctly 1`] = `
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="1gyzcso-noscriptStyle"
+      class="yosm7i"
     />
   </div>
 </DocumentFragment>
@@ -83,7 +83,7 @@ exports[`Background Image when given an Image object updates after entering the 
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="1gyzcso-noscriptStyle"
+      class="yosm7i"
     />
   </div>
 </DocumentFragment>
@@ -132,7 +132,7 @@ exports[`Background Image when given an Image object with a media query renders 
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="yac70r-noscriptStyle"
+      class="1k85vh1"
     />
   </div>
 </DocumentFragment>
@@ -187,7 +187,7 @@ exports[`Background Image when given an Image object with a media query updates 
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="yac70r-noscriptStyle"
+      class="1k85vh1"
     />
   </div>
 </DocumentFragment>
@@ -232,7 +232,7 @@ exports[`Background Image when given an Image object with the eager prop renders
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="1gyzcso-noscriptStyle"
+      class="yosm7i"
     />
   </div>
 </DocumentFragment>
@@ -282,7 +282,7 @@ exports[`Background Image when given an array of Image objects (media queries in
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="hkrhqp-noscriptStyle"
+      class="14knveg"
     />
   </div>
 </DocumentFragment>
@@ -339,7 +339,7 @@ exports[`Background Image when given an array of Image objects (media queries in
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="hkrhqp-noscriptStyle"
+      class="14knveg"
     />
   </div>
 </DocumentFragment>
@@ -383,7 +383,7 @@ exports[`Background Image when given an array of Image objects renders correctly
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="bo1dcs-noscriptStyle"
+      class="1pk3new"
     />
   </div>
 </DocumentFragment>
@@ -428,7 +428,7 @@ exports[`Background Image when given an array of Image objects updates after ent
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="bo1dcs-noscriptStyle"
+      class="1pk3new"
     />
   </div>
 </DocumentFragment>
