@@ -5,9 +5,12 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
-    "build": "tsc",
-    "prepack": "tsc",
-    "semantic-release": "semantic-release"
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "npm run type-check -- --watch",
+    "build": "npm run build:types && npm run build:js",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build:js": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline",
+    "prepack": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -34,10 +37,18 @@
     "react-use-webp-support-check": "^1.0.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/preset-typescript": "^7.8.3",
     "@emotion/jest": "^11.0.0-next.10",
     "@testing-library/react": "^9.3.3",
     "@types/jest": "^24.0.23",
     "@types/react": "^16.9.16",
+    "babel-plugin-emotion": "^10.0.27",
     "gatsby": "^2.18.11",
     "jest": "^24.9.0",
     "jest-preset-gatsby": "^1.0.21",
@@ -47,7 +58,7 @@
     "react-dom": "^16.12.0",
     "semantic-release": "^16.0.0",
     "ts-jest": "^24.2.0",
-    "typescript": "^3.7.3"
+    "typescript": "^3.7.5"
   },
   "peerDependencies": {
     "react": "^16.8.0",

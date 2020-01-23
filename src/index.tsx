@@ -120,7 +120,7 @@ export const BackgroundImage: FunctionComponent<PropsWithChildren<Props>> = (
         ::before {
           z-index: -101;
           opacity: 1;
-          ${createBackupBackgrounds(props.image)}
+          ${createBackupBackgrounds(props.image)};
         }
 
         ::after {
