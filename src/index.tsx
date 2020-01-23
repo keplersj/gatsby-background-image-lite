@@ -95,6 +95,13 @@ export const BackgroundImage: FunctionComponent<PropsWithChildren<Props>> = (
   });
   const supportsWebP = useWebPSupportCheck();
 
+  const noscriptStyle = css`
+    noscript {
+      opacity: 1;
+      ${createBackgrounds(props.image)}
+    }
+  `;
+
   return (
     <ContainerElement
       ref={ref}
@@ -131,15 +138,10 @@ export const BackgroundImage: FunctionComponent<PropsWithChildren<Props>> = (
         }
       `}
     >
-      <noscript className="gatsby-background-image-lite-noscript-wrapper">
+      <noscript className={noscriptStyle.name}>
         <style
           dangerouslySetInnerHTML={{
-            __html: css`
-              noscript .gatsby-background-image-lite-noscript-wrapper {
-                opacity: 1;
-                ${createBackgrounds(props.image)}
-              }
-            `.styles
+            __html: noscriptStyle.styles
           }}
         />
       </noscript>

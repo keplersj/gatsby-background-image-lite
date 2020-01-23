@@ -38,7 +38,7 @@ exports[`Background Image when given an Image object renders correctly 1`] = `
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="gatsby-background-image-lite-noscript-wrapper"
+      class="1gyzcso-noscriptStyle"
     />
   </div>
 </DocumentFragment>
@@ -83,7 +83,7 @@ exports[`Background Image when given an Image object updates after entering the 
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="gatsby-background-image-lite-noscript-wrapper"
+      class="1gyzcso-noscriptStyle"
     />
   </div>
 </DocumentFragment>
@@ -132,7 +132,7 @@ exports[`Background Image when given an Image object with a media query renders 
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="gatsby-background-image-lite-noscript-wrapper"
+      class="yac70r-noscriptStyle"
     />
   </div>
 </DocumentFragment>
@@ -187,7 +187,7 @@ exports[`Background Image when given an Image object with a media query updates 
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="gatsby-background-image-lite-noscript-wrapper"
+      class="yac70r-noscriptStyle"
     />
   </div>
 </DocumentFragment>
@@ -232,7 +232,7 @@ exports[`Background Image when given an Image object with the eager prop renders
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="gatsby-background-image-lite-noscript-wrapper"
+      class="1gyzcso-noscriptStyle"
     />
   </div>
 </DocumentFragment>
@@ -282,7 +282,7 @@ exports[`Background Image when given an array of Image objects (media queries in
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="gatsby-background-image-lite-noscript-wrapper"
+      class="1lzao69-noscriptStyle"
     />
   </div>
 </DocumentFragment>
@@ -339,7 +339,7 @@ exports[`Background Image when given an array of Image objects (media queries in
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="gatsby-background-image-lite-noscript-wrapper"
+      class="1lzao69-noscriptStyle"
     />
   </div>
 </DocumentFragment>
@@ -383,7 +383,7 @@ exports[`Background Image when given an array of Image objects renders correctly
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="gatsby-background-image-lite-noscript-wrapper"
+      class="1y949jm-noscriptStyle"
     />
   </div>
 </DocumentFragment>
@@ -428,7 +428,7 @@ exports[`Background Image when given an array of Image objects updates after ent
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="gatsby-background-image-lite-noscript-wrapper"
+      class="1y949jm-noscriptStyle"
     />
   </div>
 </DocumentFragment>
