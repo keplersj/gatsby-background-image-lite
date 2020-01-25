@@ -41,7 +41,7 @@
     "@types/jest": "^24.9.0",
     "@types/react": "^16.9.16",
     "eslint": "^6.8.0",
-    "eslint-config-starstuff": "^1.0.41",
+    "eslint-config-starstuff": "^1.2.3",
     "gatsby": "^2.18.11",
     "jest": "^25.1.0",
     "jest-preset-gatsby": "^1.0.21",
@@ -69,9 +69,6 @@
     ]
   },
   "eslintConfig": {
-    "extends": [
-      "starstuff/typescript",
-      "starstuff/react"
-    ]
+    "extends": "starstuff/auto"
   }
 }
