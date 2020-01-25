@@ -1,5 +1,5 @@
 jest.mock("react-use-webp-support-check", () => ({
-  useWebPSupportCheck() {
+  useWebPSupportCheck(): boolean {
     return true;
   }
 }));
