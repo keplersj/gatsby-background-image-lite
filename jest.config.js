@@ -11,6 +11,11 @@ module.exports = {
       displayName: "lint:prettier",
       preset: "jest-runner-prettier",
       testPathIgnorePatterns: ["/node_modules/", "/dist/", "/coverage/"]
+    },
+    {
+      displayName: "lint:stylelint",
+      preset: "jest-runner-stylelint",
+      testPathIgnorePatterns: ["/node_modules/", "/dist/", "/coverage/"]
     }
   ]
 };
