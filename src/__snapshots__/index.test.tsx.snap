@@ -8,18 +8,26 @@ exports[`Background Image when given an Image object renders correctly 1`] = `
 
 .emotion-0::before,
 .emotion-0::after {
-  content: "";
-  display: block;
   position: absolute;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   -webkit-transition: opacity 0.5s ease 0.25s;
   transition: opacity 0.5s ease 0.25s;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  content: "";
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-0::before,
+  .emotion-0::after {
+    -webkit-transition: none;
+    transition: none;
+  }
 }
 
 .emotion-0::after {
@@ -38,7 +46,7 @@ exports[`Background Image when given an Image object renders correctly 1`] = `
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="1iz3910"
+      class="e23z2p"
     />
   </div>
 </DocumentFragment>
@@ -52,18 +60,26 @@ exports[`Background Image when given an Image object updates after entering the 
 
 .emotion-0::before,
 .emotion-0::after {
-  content: "";
-  display: block;
   position: absolute;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   -webkit-transition: opacity 0.5s ease 0.25s;
   transition: opacity 0.5s ease 0.25s;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  content: "";
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-0::before,
+  .emotion-0::after {
+    -webkit-transition: none;
+    transition: none;
+  }
 }
 
 .emotion-0::after {
@@ -83,7 +99,7 @@ exports[`Background Image when given an Image object updates after entering the 
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="1iz3910"
+      class="e23z2p"
     />
   </div>
 </DocumentFragment>
@@ -97,18 +113,26 @@ exports[`Background Image when given an Image object with a media query renders 
 
 .emotion-0::before,
 .emotion-0::after {
-  content: "";
-  display: block;
   position: absolute;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   -webkit-transition: opacity 0.5s ease 0.25s;
   transition: opacity 0.5s ease 0.25s;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  content: "";
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-0::before,
+  .emotion-0::after {
+    -webkit-transition: none;
+    transition: none;
+  }
 }
 
 .emotion-0::after {
@@ -132,7 +156,7 @@ exports[`Background Image when given an Image object with a media query renders 
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="1thegn6"
+      class="16r6o6i"
     />
   </div>
 </DocumentFragment>
@@ -146,18 +170,26 @@ exports[`Background Image when given an Image object with a media query updates 
 
 .emotion-0::before,
 .emotion-0::after {
-  content: "";
-  display: block;
   position: absolute;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   -webkit-transition: opacity 0.5s ease 0.25s;
   transition: opacity 0.5s ease 0.25s;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  content: "";
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-0::before,
+  .emotion-0::after {
+    -webkit-transition: none;
+    transition: none;
+  }
 }
 
 .emotion-0::after {
@@ -187,7 +219,7 @@ exports[`Background Image when given an Image object with a media query updates 
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="1thegn6"
+      class="16r6o6i"
     />
   </div>
 </DocumentFragment>
@@ -201,18 +233,26 @@ exports[`Background Image when given an Image object with the eager prop renders
 
 .emotion-0::before,
 .emotion-0::after {
-  content: "";
-  display: block;
   position: absolute;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   -webkit-transition: opacity 0.5s ease 0.25s;
   transition: opacity 0.5s ease 0.25s;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  content: "";
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-0::before,
+  .emotion-0::after {
+    -webkit-transition: none;
+    transition: none;
+  }
 }
 
 .emotion-0::after {
@@ -232,7 +272,7 @@ exports[`Background Image when given an Image object with the eager prop renders
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="1iz3910"
+      class="e23z2p"
     />
   </div>
 </DocumentFragment>
@@ -246,18 +286,26 @@ exports[`Background Image when given an array of Image objects (media queries in
 
 .emotion-0::before,
 .emotion-0::after {
-  content: "";
-  display: block;
   position: absolute;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   -webkit-transition: opacity 0.5s ease 0.25s;
   transition: opacity 0.5s ease 0.25s;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  content: "";
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-0::before,
+  .emotion-0::after {
+    -webkit-transition: none;
+    transition: none;
+  }
 }
 
 .emotion-0::after {
@@ -282,7 +330,7 @@ exports[`Background Image when given an array of Image objects (media queries in
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="1ri1t2h"
+      class="v4vr95"
     />
   </div>
 </DocumentFragment>
@@ -296,18 +344,26 @@ exports[`Background Image when given an array of Image objects (media queries in
 
 .emotion-0::before,
 .emotion-0::after {
-  content: "";
-  display: block;
   position: absolute;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   -webkit-transition: opacity 0.5s ease 0.25s;
   transition: opacity 0.5s ease 0.25s;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  content: "";
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-0::before,
+  .emotion-0::after {
+    -webkit-transition: none;
+    transition: none;
+  }
 }
 
 .emotion-0::after {
@@ -339,7 +395,7 @@ exports[`Background Image when given an array of Image objects (media queries in
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="1ri1t2h"
+      class="v4vr95"
     />
   </div>
 </DocumentFragment>
@@ -353,18 +409,26 @@ exports[`Background Image when given an array of Image objects renders correctly
 
 .emotion-0::before,
 .emotion-0::after {
-  content: "";
-  display: block;
   position: absolute;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   -webkit-transition: opacity 0.5s ease 0.25s;
   transition: opacity 0.5s ease 0.25s;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  content: "";
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-0::before,
+  .emotion-0::after {
+    -webkit-transition: none;
+    transition: none;
+  }
 }
 
 .emotion-0::after {
@@ -383,7 +447,7 @@ exports[`Background Image when given an array of Image objects renders correctly
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="zv1tjg"
+      class="1u1eot0"
     />
   </div>
 </DocumentFragment>
@@ -397,18 +461,26 @@ exports[`Background Image when given an array of Image objects updates after ent
 
 .emotion-0::before,
 .emotion-0::after {
-  content: "";
-  display: block;
   position: absolute;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   -webkit-transition: opacity 0.5s ease 0.25s;
   transition: opacity 0.5s ease 0.25s;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  content: "";
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-0::before,
+  .emotion-0::after {
+    -webkit-transition: none;
+    transition: none;
+  }
 }
 
 .emotion-0::after {
@@ -428,7 +500,7 @@ exports[`Background Image when given an array of Image objects updates after ent
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="zv1tjg"
+      class="1u1eot0"
     />
   </div>
 </DocumentFragment>

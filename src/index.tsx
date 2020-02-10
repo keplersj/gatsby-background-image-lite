@@ -98,7 +98,9 @@ export const BackgroundImage: FunctionComponent<PropsWithChildren<Props>> = (
   const noscriptStyle = css`
     noscript {
       z-index: -100;
+
       opacity: 1;
+
       ${createBackgrounds(props.image)}
     }
   `;
@@ -112,29 +114,41 @@ export const BackgroundImage: FunctionComponent<PropsWithChildren<Props>> = (
 
         ::before,
         ::after {
-          content: "";
-          display: block;
           position: absolute;
-          width: 100%;
-          height: 100%;
           top: 0;
           left: 0;
-          transition: opacity 0.5s ease 0.25s;
-          background-position: center;
+
+          display: block;
+          width: 100%;
+          height: 100%;
+
           background-repeat: no-repeat;
+          background-position: center;
           background-size: cover;
+
+          transition: opacity 0.5s ease 0.25s;
+
+          content: "";
+
+          @media screen and (prefers-reduced-motion: reduce) {
+            transition: none;
+          }
         }
 
         ::after {
           z-index: -100;
+
           opacity: ${inView || props.eager ? "1" : "0"};
+
           ${(inView || props.eager) &&
             createBackgrounds(props.image, supportsWebP)}
         }
 
         ::before {
           z-index: -101;
+
           opacity: 1;
+
           ${createBackupBackgrounds(props.image)}
         }
       `}
