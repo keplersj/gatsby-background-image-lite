@@ -19,16 +19,16 @@ function createBackgrounds(
 ): SerializedStyles {
   if (Array.isArray(img)) {
     const backgroundsWithoutQuery = (img as Array<BackgroundImageObject>)
-      .filter(asset => !asset.media)
-      .map(asset =>
+      .filter((asset) => !asset.media)
+      .map((asset) =>
         asset.srcWebp && supportsWebP
           ? `url("${asset.srcWebp}")`
           : `url("${asset.src}")`
       );
 
     const backgroundsWithQuery = (img as Array<BackgroundImageObject>)
-      .filter(asset => Boolean(asset.media))
-      .map(asset => {
+      .filter((asset) => Boolean(asset.media))
+      .map((asset) => {
         const backgroundImage =
           asset.srcWebp && supportsWebP ? asset.srcWebp : asset.src;
         return css`
@@ -52,13 +52,13 @@ function createBackupBackgrounds(
 ): SerializedStyles {
   if (Array.isArray(img)) {
     const backgroundsWithoutQuery = (img as Array<BackgroundImageObject>)
-      .filter(asset => !asset.media)
-      .map(asset => `url("${asset.base64}")`);
+      .filter((asset) => !asset.media)
+      .map((asset) => `url("${asset.base64}")`);
 
     const backgroundsWithQuery = (img as Array<BackgroundImageObject>)
-      .filter(asset => Boolean(asset.media))
+      .filter((asset) => Boolean(asset.media))
       .map(
-        asset => css`
+        (asset) => css`
           @media ${asset.media} {
             background-image: url("${asset.base64}");
           }
@@ -82,7 +82,7 @@ interface Props {
 
 const defaultProps: Partial<Props> = {
   tag: "div",
-  eager: false
+  eager: false,
 };
 
 export const BackgroundImage: FunctionComponent<PropsWithChildren<Props>> = (
@@ -91,7 +91,7 @@ export const BackgroundImage: FunctionComponent<PropsWithChildren<Props>> = (
   // Let's pretend whatever element this is supponsed to be is a div, so the TypeScript stops freaking out about complexity.
   const ContainerElement = props.tag as "div";
   const [ref, inView] = useInView({
-    triggerOnce: true
+    triggerOnce: true,
   });
   const supportsWebP = useWebPSupportCheck();
 
@@ -141,7 +141,7 @@ export const BackgroundImage: FunctionComponent<PropsWithChildren<Props>> = (
           opacity: ${inView || props.eager ? "1" : "0"};
 
           ${(inView || props.eager) &&
-            createBackgrounds(props.image, supportsWebP)}
+          createBackgrounds(props.image, supportsWebP)}
         }
 
         ::before {
@@ -156,7 +156,7 @@ export const BackgroundImage: FunctionComponent<PropsWithChildren<Props>> = (
       <noscript className={noscriptStyle.name}>
         <style
           dangerouslySetInnerHTML={{
-            __html: noscriptStyle.styles
+            __html: noscriptStyle.styles,
           }}
         />
       </noscript>

@@ -5,17 +5,17 @@ module.exports = {
       displayName: "test",
       preset: "jest-preset-gatsby/typescript",
       snapshotSerializers: ["@emotion/jest"],
-      testPathIgnorePatterns: ["/node_modules/", "/dist/"]
+      testPathIgnorePatterns: ["/node_modules/", "/dist/"],
     },
     {
       displayName: "lint:prettier",
       preset: "jest-runner-prettier",
-      testPathIgnorePatterns: ["/node_modules/", "/dist/", "/coverage/"]
+      testPathIgnorePatterns: ["/node_modules/", "/dist/", "/coverage/"],
     },
     {
       displayName: "lint:stylelint",
       preset: "jest-runner-stylelint",
-      testPathIgnorePatterns: ["/node_modules/", "/dist/", "/coverage/"]
+      testPathIgnorePatterns: ["/node_modules/", "/dist/", "/coverage/"],
     },
     {
       displayName: "lint:eslint",
@@ -23,8 +23,8 @@ module.exports = {
       testMatch: [
         "<rootDir>/src/**/*.js",
         "<rootDir>/src/**/*.ts",
-        "<rootDir>/src/**/*.tsx"
-      ]
-    }
-  ]
+        "<rootDir>/src/**/*.tsx",
+      ],
+    },
+  ],
 };

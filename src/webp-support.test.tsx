@@ -1,7 +1,7 @@
 jest.mock("react-use-webp-support-check", () => ({
   useWebPSupportCheck(): boolean {
     return true;
-  }
+  },
 }));
 
 import * as React from "react";
@@ -25,7 +25,7 @@ describe("Background Image", () => {
     const sampleImage: BackgroundImageObject = {
       base64: sampleBase64,
       src: "/static/banner_example/1/banner.jpg",
-      srcWebp: "/static/banner_example/2/banner.webp"
+      srcWebp: "/static/banner_example/2/banner.webp",
     };
 
     it("renders correctly", () => {
@@ -43,7 +43,7 @@ describe("Background Image", () => {
         "opacity",
         "0",
         {
-          target: "::after"
+          target: "::after",
         }
       );
 
@@ -54,7 +54,7 @@ describe("Background Image", () => {
         "opacity",
         "1",
         {
-          target: "::after"
+          target: "::after",
         }
       );
       expect(afterIntersect).toMatchSnapshot();
@@ -66,13 +66,13 @@ describe("Background Image", () => {
       {
         base64: sampleBase64,
         src: "/static/banner_example/1/banner.jpg",
-        srcWebp: "/static/banner_example/2/banner.webp"
+        srcWebp: "/static/banner_example/2/banner.webp",
       },
       {
         base64: sampleBase64,
         src: "/static/another_banner_example/1/banner.jpg",
-        srcWebp: "/static/another_banner_example/2/banner.webp"
-      }
+        srcWebp: "/static/another_banner_example/2/banner.webp",
+      },
     ];
 
     it("renders correctly", () => {
@@ -89,7 +89,7 @@ describe("Background Image", () => {
         "opacity",
         "0",
         {
-          target: "::after"
+          target: "::after",
         }
       );
 
@@ -100,7 +100,7 @@ describe("Background Image", () => {
         "opacity",
         "1",
         {
-          target: "::after"
+          target: "::after",
         }
       );
       expect(afterIntersect).toMatchSnapshot();
@@ -112,19 +112,19 @@ describe("Background Image", () => {
       {
         base64: sampleBase64,
         src: "/static/banner_example/1/banner.jpg",
-        srcWebp: "/static/banner_example/2/banner.webp"
+        srcWebp: "/static/banner_example/2/banner.webp",
       },
       {
         base64: sampleBase64,
         src: "/static/another_banner_example/1/banner.jpg",
-        srcWebp: "/static/another_banner_example/2/banner.webp"
+        srcWebp: "/static/another_banner_example/2/banner.webp",
       },
       {
         base64: sampleBase64,
         src: "/static/special_banner_example/1/banner.jpg",
         srcWebp: "/static/special_banner_example/2/banner.webp",
-        media: "screen and (prefers-color-scheme: dark)"
-      }
+        media: "screen and (prefers-color-scheme: dark)",
+      },
     ];
 
     it("renders correctly", () => {
@@ -141,7 +141,7 @@ describe("Background Image", () => {
         "opacity",
         "0",
         {
-          target: "::after"
+          target: "::after",
         }
       );
 
@@ -152,7 +152,7 @@ describe("Background Image", () => {
         "opacity",
         "1",
         {
-          target: "::after"
+          target: "::after",
         }
       );
       expect(afterIntersect).toMatchSnapshot();
@@ -164,7 +164,7 @@ describe("Background Image", () => {
       const sampleImage: BackgroundImageObject = {
         base64: sampleBase64,
         src: "/static/banner_example/1/banner.jpg",
-        srcWebp: "/static/banner_example/2/banner.webp"
+        srcWebp: "/static/banner_example/2/banner.webp",
       };
 
       const { asFragment } = render(
@@ -179,7 +179,7 @@ describe("Background Image", () => {
       base64: sampleBase64,
       src: "/static/banner_example/1/banner.jpg",
       srcWebp: "/static/banner_example/2/banner.webp",
-      media: "screen and (prefers-color-scheme: dark)"
+      media: "screen and (prefers-color-scheme: dark)",
     };
 
     it("renders correctly", () => {
@@ -196,7 +196,7 @@ describe("Background Image", () => {
         "opacity",
         "0",
         {
-          target: "::after"
+          target: "::after",
         }
       );
 
@@ -208,7 +208,7 @@ describe("Background Image", () => {
         "opacity",
         "1",
         {
-          target: "::after"
+          target: "::after",
         }
       );
       expect(afterIntersect).toMatchSnapshot();
