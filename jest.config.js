@@ -4,7 +4,7 @@ module.exports = {
     {
       displayName: "test",
       preset: "jest-preset-gatsby/typescript",
-      snapshotSerializers: ["@emotion/jest"],
+      snapshotSerializers: ["@emotion/jest/serializer"],
       testPathIgnorePatterns: ["/node_modules/", "/dist/"],
     },
     {

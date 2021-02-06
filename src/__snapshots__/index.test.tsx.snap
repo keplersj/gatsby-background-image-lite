@@ -15,14 +15,16 @@ exports[`Background Image when given an Image object renders correctly 1`] = `
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
+  -webkit-background-position: center;
   background-position: center;
+  -webkit-background-size: cover;
   background-size: cover;
   -webkit-transition: opacity 0.5s ease 0.25s;
   transition: opacity 0.5s ease 0.25s;
   content: "";
 }
 
-@media screen and (prefers-reduced-motion:reduce) {
+@media screen and (prefers-reduced-motion: reduce) {
   .emotion-0::before,
   .emotion-0::after {
     -webkit-transition: none;
@@ -67,14 +69,16 @@ exports[`Background Image when given an Image object updates after entering the 
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
+  -webkit-background-position: center;
   background-position: center;
+  -webkit-background-size: cover;
   background-size: cover;
   -webkit-transition: opacity 0.5s ease 0.25s;
   transition: opacity 0.5s ease 0.25s;
   content: "";
 }
 
-@media screen and (prefers-reduced-motion:reduce) {
+@media screen and (prefers-reduced-motion: reduce) {
   .emotion-0::before,
   .emotion-0::after {
     -webkit-transition: none;
@@ -120,14 +124,16 @@ exports[`Background Image when given an Image object with a media query renders 
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
+  -webkit-background-position: center;
   background-position: center;
+  -webkit-background-size: cover;
   background-size: cover;
   -webkit-transition: opacity 0.5s ease 0.25s;
   transition: opacity 0.5s ease 0.25s;
   content: "";
 }
 
-@media screen and (prefers-reduced-motion:reduce) {
+@media screen and (prefers-reduced-motion: reduce) {
   .emotion-0::before,
   .emotion-0::after {
     -webkit-transition: none;
@@ -145,7 +151,7 @@ exports[`Background Image when given an Image object with a media query renders 
   opacity: 1;
 }
 
-@media screen and (prefers-color-scheme:dark) {
+@media screen and (prefers-color-scheme: dark) {
   .emotion-0::before {
     background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
   }
@@ -156,7 +162,7 @@ exports[`Background Image when given an Image object with a media query renders 
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="16r6o6i"
+      class="1kc74be"
     />
   </div>
 </DocumentFragment>
@@ -177,14 +183,16 @@ exports[`Background Image when given an Image object with a media query updates 
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
+  -webkit-background-position: center;
   background-position: center;
+  -webkit-background-size: cover;
   background-size: cover;
   -webkit-transition: opacity 0.5s ease 0.25s;
   transition: opacity 0.5s ease 0.25s;
   content: "";
 }
 
-@media screen and (prefers-reduced-motion:reduce) {
+@media screen and (prefers-reduced-motion: reduce) {
   .emotion-0::before,
   .emotion-0::after {
     -webkit-transition: none;
@@ -197,7 +205,7 @@ exports[`Background Image when given an Image object with a media query updates 
   opacity: 1;
 }
 
-@media screen and (prefers-color-scheme:dark) {
+@media screen and (prefers-color-scheme: dark) {
   .emotion-0::after {
     background-image: url("/static/banner_example/1/banner.jpg");
   }
@@ -208,7 +216,7 @@ exports[`Background Image when given an Image object with a media query updates 
   opacity: 1;
 }
 
-@media screen and (prefers-color-scheme:dark) {
+@media screen and (prefers-color-scheme: dark) {
   .emotion-0::before {
     background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
   }
@@ -219,7 +227,7 @@ exports[`Background Image when given an Image object with a media query updates 
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="16r6o6i"
+      class="1kc74be"
     />
   </div>
 </DocumentFragment>
@@ -240,14 +248,16 @@ exports[`Background Image when given an Image object with the eager prop renders
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
+  -webkit-background-position: center;
   background-position: center;
+  -webkit-background-size: cover;
   background-size: cover;
   -webkit-transition: opacity 0.5s ease 0.25s;
   transition: opacity 0.5s ease 0.25s;
   content: "";
 }
 
-@media screen and (prefers-reduced-motion:reduce) {
+@media screen and (prefers-reduced-motion: reduce) {
   .emotion-0::before,
   .emotion-0::after {
     -webkit-transition: none;
@@ -293,14 +303,16 @@ exports[`Background Image when given an array of Image objects (media queries in
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
+  -webkit-background-position: center;
   background-position: center;
+  -webkit-background-size: cover;
   background-size: cover;
   -webkit-transition: opacity 0.5s ease 0.25s;
   transition: opacity 0.5s ease 0.25s;
   content: "";
 }
 
-@media screen and (prefers-reduced-motion:reduce) {
+@media screen and (prefers-reduced-motion: reduce) {
   .emotion-0::before,
   .emotion-0::after {
     -webkit-transition: none;
@@ -319,7 +331,7 @@ exports[`Background Image when given an array of Image objects (media queries in
   background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z"),url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
 }
 
-@media screen and (prefers-color-scheme:dark) {
+@media screen and (prefers-color-scheme: dark) {
   .emotion-0::before {
     background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
   }
@@ -330,7 +342,7 @@ exports[`Background Image when given an array of Image objects (media queries in
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="v4vr95"
+      class="ojp4rw"
     />
   </div>
 </DocumentFragment>
@@ -351,14 +363,16 @@ exports[`Background Image when given an array of Image objects (media queries in
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
+  -webkit-background-position: center;
   background-position: center;
+  -webkit-background-size: cover;
   background-size: cover;
   -webkit-transition: opacity 0.5s ease 0.25s;
   transition: opacity 0.5s ease 0.25s;
   content: "";
 }
 
-@media screen and (prefers-reduced-motion:reduce) {
+@media screen and (prefers-reduced-motion: reduce) {
   .emotion-0::before,
   .emotion-0::after {
     -webkit-transition: none;
@@ -372,7 +386,7 @@ exports[`Background Image when given an array of Image objects (media queries in
   background-image: url("/static/banner_example/1/banner.jpg"),url("/static/banner_example/1/banner.jpg");
 }
 
-@media screen and (prefers-color-scheme:dark) {
+@media screen and (prefers-color-scheme: dark) {
   .emotion-0::after {
     background-image: url("/static/banner_example/1/banner.jpg");
   }
@@ -384,7 +398,7 @@ exports[`Background Image when given an array of Image objects (media queries in
   background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z"),url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
 }
 
-@media screen and (prefers-color-scheme:dark) {
+@media screen and (prefers-color-scheme: dark) {
   .emotion-0::before {
     background-image: url("data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB1ZUrU0CyL//EABoQAAICAwAAAAAAAAAAAAAAAAACARIREyH/2gAIAQEAAQUCiFMIUg6XY2Mf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AW1//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAIyEDH/2gAIAQEABj8C3pbFsf/EAB4QAAEDBAMAAAAAAAAAAAAAAAABEUEhUWFxkdHx/9oACAEBAAE/IcnggdtoLfKJjfce4f/aAAwDAQACAAMAAAAQGw//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QAsL/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBWH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESFRcbHRwf/aAAgBAQABPxBpi3Fuos5FpCIbpBzBcLAlYNX9gZ9/s//Z");
   }
@@ -395,7 +409,7 @@ exports[`Background Image when given an array of Image objects (media queries in
     data-testid="BackgroundImageContainerElement"
   >
     <noscript
-      class="v4vr95"
+      class="ojp4rw"
     />
   </div>
 </DocumentFragment>
@@ -416,14 +430,16 @@ exports[`Background Image when given an array of Image objects renders correctly
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
+  -webkit-background-position: center;
   background-position: center;
+  -webkit-background-size: cover;
   background-size: cover;
   -webkit-transition: opacity 0.5s ease 0.25s;
   transition: opacity 0.5s ease 0.25s;
   content: "";
 }
 
-@media screen and (prefers-reduced-motion:reduce) {
+@media screen and (prefers-reduced-motion: reduce) {
   .emotion-0::before,
   .emotion-0::after {
     -webkit-transition: none;
@@ -468,14 +484,16 @@ exports[`Background Image when given an array of Image objects updates after ent
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
+  -webkit-background-position: center;
   background-position: center;
+  -webkit-background-size: cover;
   background-size: cover;
   -webkit-transition: opacity 0.5s ease 0.25s;
   transition: opacity 0.5s ease 0.25s;
   content: "";
 }
 
-@media screen and (prefers-reduced-motion:reduce) {
+@media screen and (prefers-reduced-motion: reduce) {
   .emotion-0::before,
   .emotion-0::after {
     -webkit-transition: none;

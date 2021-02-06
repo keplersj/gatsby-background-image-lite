@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { PropsWithChildren, FunctionComponent } from "react";
 import { graphql } from "gatsby";
-import { css, jsx, SerializedStyles } from "@emotion/core";
+import { css, jsx, SerializedStyles } from "@emotion/react";
 import { backgroundImages } from "polished";
 import { useInView } from "react-intersection-observer";
 import { useWebPSupportCheck } from "react-use-webp-support-check";
