@@ -30,7 +30,7 @@
   "homepage": "https://github.com/keplersj/gatsby-background-image-lite#readme",
   "dependencies": {
     "@emotion/core": "^10.0.28",
-    "polished": "^3.5.2",
+    "polished": "^4.1.0",
     "react-intersection-observer": "^8.26.2",
     "react-use-webp-support-check": "^1.0.2"
   },
