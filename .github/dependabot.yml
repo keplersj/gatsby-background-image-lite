@@ -1,0 +1,87 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "12:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: ts-jest
+    versions:
+    - 26.5.2
+    - 26.5.4
+  - dependency-name: "@types/jest"
+    versions:
+    - 26.0.21
+  - dependency-name: jest-preset-gatsby
+    versions:
+    - 1.0.108
+    - 1.0.109
+    - 1.0.110
+    - 1.0.111
+    - 1.0.112
+    - 1.0.113
+    - 1.0.114
+    - 1.0.115
+    - 1.0.116
+    - 1.0.117
+  - dependency-name: eslint
+    versions:
+    - 7.20.0
+    - 7.21.0
+    - 7.22.0
+  - dependency-name: gatsby
+    versions:
+    - 2.31.1
+    - 2.32.0
+    - 2.32.1
+    - 2.32.10
+    - 2.32.2
+    - 2.32.4
+    - 2.32.5
+    - 2.32.7
+    - 2.32.9
+  - dependency-name: "@types/react-dom"
+    versions:
+    - 17.0.2
+  - dependency-name: "@emotion/jest"
+    versions:
+    - 11.2.1
+  - dependency-name: stylelint
+    versions:
+    - 13.10.0
+    - 13.11.0
+    - 13.12.0
+  - dependency-name: babel-preset-gatsby
+    versions:
+    - 0.12.2
+    - 1.0.0
+  - dependency-name: semantic-release
+    versions:
+    - 17.3.9
+    - 17.4.0
+  - dependency-name: typescript
+    versions:
+    - 4.2.2
+  - dependency-name: "@testing-library/react"
+    versions:
+    - 11.2.3
+    - 11.2.4
+    - 11.2.5
+  - dependency-name: npm
+    versions:
+    - 6.14.11
+  - dependency-name: npm-user-validate
+    versions:
+    - 1.0.1
+  - dependency-name: "@types/react"
+    versions:
+    - 17.0.0
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
+  commit-message:
+    prefix: fix
+    prefix-development: chore
+    include: scope
